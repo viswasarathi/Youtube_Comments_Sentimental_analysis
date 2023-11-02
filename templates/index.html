@@ -1,0 +1,64 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Jatin_Agrawal_20BCS6606</title>
+  </head>
+  <body>
+    <form action="/analyze" method="post">
+      <label for="youtube_link">Enter YouTube Link:</label>
+      <input type="text" id="youtube_link" name="youtube_link">
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Sentiment Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        .container {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .card {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2 class="card-title">YouTube Sentiment Analysis</h2>
+            <form action="/analyze" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="youtube_link" placeholder="Enter YouTube Link" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Analyze Comments</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
