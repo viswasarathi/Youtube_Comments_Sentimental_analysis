@@ -19,7 +19,7 @@ from flask import send_file
 app = Flask(__name__)
 
 
-DEVELOPER_KEY = "AIzaSyCDTKQJOD4aCJP6WdQtnC2PM7zlkUnfCSA"
+DEVELOPER_KEY = "AIzaSyCPttEvefi8y_dFoLjgKL8pkDNGFh1SYoE"
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 # Create a client object to interact with the YouTube API
